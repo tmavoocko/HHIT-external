@@ -1,1 +1,1 @@
-alert("tst.js from github");
+alert("tst.js from github vazne exretni scriptik hura");
