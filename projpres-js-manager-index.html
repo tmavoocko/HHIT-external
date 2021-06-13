@@ -1,0 +1,85 @@
+<div>
+<!-- J Query -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<!-- load external js from https -->
+<script id="api-hhitEntrypoint">
+    //global vars
+    var flpth="";//file url - must be on ssl type
+    
+
+
+    //MAIN code and fnctions
+    
+    function loadFile(filePath,expectations) {
+        
+
+
+        let result = null;
+        var xmlhttp = new XMLHttpRequest();
+        
+        
+        xmlhttp.open("GET", filePath, false);
+        //xmlhttp.timeout=500;
+        //xmlhttp.setRequestHeader('Access-Control-Allow-Origin', '*');
+        //xmlhttp.setRequestHeader('Accept', 'application/json');
+        //xmlhttp.setRequestHeader('Content-Type', 'application/json');        
+        xmlhttp.send();
+        if (xmlhttp.readyState === 4) {
+            if (xmlhttp.status === 200) {
+                //alert(xmlhttp.status);
+                ////callback.apply(xmlhttp, args);
+                var newstr="";
+                var str=xmlhttp.responseText;
+                if (expectations==="jsn") {
+                    {
+                        var strarr=str.split('\n');
+                    
+                        for (var i = 0; i < strarr.length; i++) {
+                            newstr =newstr+ strarr[i];
+                            
+                        }
+                    }
+                }
+                
+                if (newstr=="") {
+                    newstr=str;
+                }
+                //result=await newstr;
+                result= newstr;
+                //console.log(result);
+                return result;
+                //projpres_prep(result)
+            } else {
+                console.error(xmlhttp.statusText);
+            }
+        }
+        
+        
+    }
+    
+    function scriptjs_prep(inctxt) {
+        
+        var scrpt=document.createElement('script');
+        scrpt.className='hhit_script';
+        scrpt.setAttribute("asp-append-version","true");
+        var scrpts =document.getElementsByClassName('hhit_script');
+        if (scrpts.length>0) {
+            scrpts[0].innerHTML=scrpts[0].innerHTML+inctxt;
+        } else {
+            scrpt.innerHTML=inctxt;
+            var entrypoint=document.getElementById("api-hhitEntrypoint").parentElement;
+            //document.body.appendChild(scrpt);
+            entrypoint.appendChild(scrpt);
+            //WebUI.executeJavaScript(scrpt, null)
+        }
+        
+    }
+    
+    //flpth="https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/tst.js";
+    flpth="https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/projpres.js";
+    var myStuff = loadFile(flpth,"");
+    scriptjs_prep(myStuff);
+    
+</script>
+</div>
