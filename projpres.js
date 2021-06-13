@@ -1,13 +1,14 @@
-//file url - must be on ssl type
-var flpth="https://hhit.webnode.cz/_files/200000151-dbdeadbdec/projjson0.0.txt";            
-//flpth="https://hhit.webnode.cz/_files/200000152-639f5639f7/projjson0.1.txt";
-//flpth="https://hhit.webnode.cz/_files/200000153-778597785c/projjson0.1-9.txt";
-flpth="https://hhit.webnode.cz/_files/200000156-4927049273/projjson0.1-92.txt";
-//flpth="https://hhit.webnode.cz/_files/200000160-7115b7115c/projpres0.1.2.txt";
-//parentFunction('http://hhittestiky.wz.cz/hhit/projjson0.1.json');
-flpth="https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/projpres0.1.3.json";
-flpth="https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/projjson0.1.txt";
-//style stuff
+//mobile responsible beehav activation
+var meta = document.createElement('meta');
+meta.name = 'viewport';            
+meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1';
+//document.getElementsByTagName('head')[0].appendChild(meta);
+
+//global vars
+var entrypoint=document.getElementById("api-hhitEntrypoint").parentElement;
+var flpth="";//file url - must be on ssl type
+
+////style stuff
 var bckdsgblob="background-color: #101010;";
 var bck="background-color: black;";
 var clr0="#a8b741";
@@ -20,26 +21,78 @@ var mnWdth50="min-width: 49%";
 var mnWdth40="min-width: 39%";
 var mnWdth30="min-width: 29%";
 var mnWdth20="min-width: 19%";
+
+//Bootsrap,jquery activation
+scriptlink_add();
+function scriptlink_add() {
+    var detectscrptslnks=document.getElementsByClassName("hhit_added");
+    if (detectscrptslnks.length==0) {
+        //J Query
+        {
+            var scrpt=document.createElement('script');
+            scrpt.className='hhit_added';
+            scrpt.src="https://code.jquery.com/jquery-3.4.1.slim.min.js";
+            scrpt.setAttribute("integrity","sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n");
+            scrpt.setAttribute("crossorigin","anonymous");
+            scrpt.setAttribute("asp-append-version","true");
+            document.head.appendChild(scrpt);
+        }
+        //Popper - bootstrap dependency 
+        {
+            var scrpt=document.createElement('script');            
+            scrpt.className='hhit_added';
+            scrpt.src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js";
+            scrpt.setAttribute("integrity","sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo");
+            scrpt.setAttribute("crossorigin","anonymous");
+            scrpt.setAttribute("asp-append-version","true");
+            entrypoint.appendChild(scrpt);
+        }
+        //Bootstrap js 
+        {
+            var scrpt=document.createElement('script');            
+            scrpt.className='hhit_added';
+            scrpt.src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js";
+            scrpt.setAttribute("integrity","sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6");
+            scrpt.setAttribute("crossorigin","anonymous");
+            scrpt.setAttribute("asp-append-version","true");
+            entrypoint.appendChild(scrpt);
+        }
+        //Bootstrap css 
+        {
+            var lnk=document.createElement('link');            
+            lnk.className='hhit_added';
+            lnk.href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css";
+            lnk.setAttribute("rel","stylesheet");
+            //lnk.setAttribute("crossorigin","anonymous");
+            entrypoint.appendChild(lnk);
+        }
+        
+    }
+}
 //jQuery
 var jqrOk = jQuery;
+
+
 //local aryys of json objects
 let projpresObjcts=[];        
 //let projectsSmObj=[];
 
-//mobile responsible beehav activation
-var meta = document.createElement('meta');
-meta.name = 'viewport';            
-meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1';
-//document.getElementsByTagName('head')[0].appendChild(meta);
+
+
 
 
 //MAIN code and fnctions
 
+//Div aaddon holder adding
+var addndiv=document.createElement('div');
+addndiv.id="prjctsaddonhldr";
+addndiv.className="dsgblob";
+entrypoint.appendChild(addndiv);
+
+//load json data filepath must be placed on ssl-url adress
+flpth="https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/projjson0.1.txt";
 var myStuff = loadFile(flpth,"jsn");
-projpres_prep(myStuff);
-//.then( alert(myStuff));
-//alert(myStuff);
-//filepath must be placed on ssl-url adress
+projpres_prep(myStuff);    
 function loadFile(filePath,expectations) {
     
 
@@ -86,7 +139,6 @@ function loadFile(filePath,expectations) {
     
     
 }
-
 function projpres_prep(inctxt) {
     projpresObjcts=[];
     var objctsToParse=[];
@@ -109,8 +161,6 @@ function projpres_prep(inctxt) {
 }
 
 
-
-
 async function firstAsync(filePath) {
     let promise = new Promise((res, rej) => {
         setTimeout(() => res(loadFile(filePath)), 500)
@@ -122,7 +172,6 @@ async function firstAsync(filePath) {
     // "Now it's done!"
     alert(result); 
 }
-
 //firstAsync(flpth);
 
 
@@ -226,7 +275,7 @@ function projsm_stlyes(){
     //document.getElementsByTagName('body')[0].appendChild(style);
     //document.getElementById('prjctsaddonhldr')[0].appendChild(style);
 }
-        
+     
 
 function projsm_displdata(data) {
     
@@ -299,7 +348,7 @@ function projsm_displdata(data) {
     // var dsplTmlPanelData=document.createElement("div");
     // dsplTmlPanelData.id="dsplTmlPanelData";
     // (document.getElementById('prjctsaddonhldr')).appendChild(dsplTmlPanelData);
-    
+   
     
 }
 
@@ -758,112 +807,112 @@ function subfnc_displMdl(projObj,incI) {
 
                 let hr=projsm_spwnElm(clmnmdl.id,"hr","");
                 hr.style.backgroundColor="#fffccc"
-                }
-                if (projObj.viewwebimg_src!=""&projObj.viewweba_href=="") {
-                    let p=projsm_spwnElm(clmnmdl.id,"p","","Logo projektu");
-                    let div=projsm_spwnElm(clmnmdl.id,"a","viewlogodiv","",projObj.ttl+"-viewlogodiv");
-                    
-                    let logo=projsm_spwnElm(div.id,"img","viewwebimg","",projObj.ttl+"-viewwebimg");
-                    logo.setAttribute("src",projObj.viewwebimg_src);
-                    
+            }
+            if (projObj.viewwebimg_src!=""&projObj.viewweba_href=="") {
+                let p=projsm_spwnElm(clmnmdl.id,"p","","Logo projektu");
+                let div=projsm_spwnElm(clmnmdl.id,"a","viewlogodiv","",projObj.ttl+"-viewlogodiv");
+                
+                let logo=projsm_spwnElm(div.id,"img","viewwebimg","",projObj.ttl+"-viewwebimg");
+                logo.setAttribute("src",projObj.viewwebimg_src);
+                
 
-                    let hr=projsm_spwnElm(clmnmdl.id,"hr","");
-                    hr.style.backgroundColor="#fffccc"
+                let hr=projsm_spwnElm(clmnmdl.id,"hr","");
+                hr.style.backgroundColor="#fffccc"
+            }
+            // if (projObj.mdlimg_src3!="") {
+            //     let mdlimg=projsm_spwnElm(clmnmdl.id,"img","mdlimgrght","","mdlimgrght3");
+            //     mdlimg.setAttribute("src",projObj.mdlimg_src3);
+                
+            // }
+            if (projObj.mdlimg_src0!=""&projObj.mdlimg_src1!=""&projObj.mdlimg_src2!=""&projObj.mdlimg_src3!="") {
+                let mdldiv=projsm_spwnElm(clmnmdl.id,"div","mdldivrght composition","","mdldivrght"+incI);
+                {
+                    let mdlimg=projsm_spwnElm(mdldiv.id,"img","imgcomposition","","imgcompos0");
+                    mdlimg.setAttribute("src",projObj.mdlimg_src0);
                 }
-                // if (projObj.mdlimg_src3!="") {
-                //     let mdlimg=projsm_spwnElm(clmnmdl.id,"img","mdlimgrght","","mdlimgrght3");
-                //     mdlimg.setAttribute("src",projObj.mdlimg_src3);
-                    
-                // }
-                if (projObj.mdlimg_src0!=""&projObj.mdlimg_src1!=""&projObj.mdlimg_src2!=""&projObj.mdlimg_src3!="") {
-                    let mdldiv=projsm_spwnElm(clmnmdl.id,"div","mdldivrght composition","","mdldivrght"+incI);
-                    {
-                        let mdlimg=projsm_spwnElm(mdldiv.id,"img","imgcomposition","","imgcompos0");
-                        mdlimg.setAttribute("src",projObj.mdlimg_src0);
-                    }
-                    {
-                        let mdlimg=projsm_spwnElm(mdldiv.id,"img","imgcomposition","","imgcompos1");
-                        mdlimg.setAttribute("src",projObj.mdlimg_src1);
-                    }
-                    {
-                        let mdlimg=projsm_spwnElm(mdldiv.id,"img","imgcomposition","","imgcompos2");
-                        mdlimg.setAttribute("src",projObj.mdlimg_src2);
-                    }
-                    {
-                        let mdlimg=projsm_spwnElm(mdldiv.id,"img","imgcomposition","","imgcompos3");
-                        mdlimg.setAttribute("src",projObj.mdlimg_src3);
-                    }
+                {
+                    let mdlimg=projsm_spwnElm(mdldiv.id,"img","imgcomposition","","imgcompos1");
+                    mdlimg.setAttribute("src",projObj.mdlimg_src1);
+                }
+                {
+                    let mdlimg=projsm_spwnElm(mdldiv.id,"img","imgcomposition","","imgcompos2");
+                    mdlimg.setAttribute("src",projObj.mdlimg_src2);
+                }
+                {
+                    let mdlimg=projsm_spwnElm(mdldiv.id,"img","imgcomposition","","imgcompos3");
+                    mdlimg.setAttribute("src",projObj.mdlimg_src3);
                 }
             }
-            
-        }
-        var wrksdone=document.getElementById(projObj.ttl+"-worksdone");
-        for (var index = 0; index < projObj.worksdone.length; index++) {
-            //const element = array[index];
-            var htmlprep="<i class='fa fa-fw fa-check-circle-o'></i>"+projObj.worksdone[index];
-            let span=projsm_spwnElm(wrksdone.id,"span","worktype",htmlprep);
         }
         
-        
+    }
+    var wrksdone=document.getElementById(projObj.ttl+"-worksdone");
+    for (var index = 0; index < projObj.worksdone.length; index++) {
+        //const element = array[index];
+        var htmlprep="<i class='fa fa-fw fa-check-circle-o'></i>"+projObj.worksdone[index];
+        let span=projsm_spwnElm(wrksdone.id,"span","worktype",htmlprep);
     }
     
-    function prview(inctxt) {
+    
+}
 
-        var mineDiv = document.getElementById("prjctsaddonhldr");
+function prview(inctxt) {
 
-        var allModaldivs = mineDiv.getElementsByClassName('modal');
-        var incId = "";
-        incId = inctxt;
-        //alert(incId);
+    var mineDiv = document.getElementById("prjctsaddonhldr");
 
-        for (var i = 0; i < allModaldivs.length; i++) {
+    var allModaldivs = mineDiv.getElementsByClassName('modal');
+    var incId = "";
+    incId = inctxt;
+    //alert(incId);
 
-            if (allModaldivs[i].id == incId) {
-                var nr = i;
-                nr -= 1;
-                if (nr < 0) {
-                    nr = allModaldivs.length - 1;
-                }
-                //alert(allModaldivs[nr].className);
-                allModaldivs[nr].style.display = "block";
-                allModaldivs[i].style.display = "none";
-                return;
+    for (var i = 0; i < allModaldivs.length; i++) {
+
+        if (allModaldivs[i].id == incId) {
+            var nr = i;
+            nr -= 1;
+            if (nr < 0) {
+                nr = allModaldivs.length - 1;
             }
-
-
-
-
+            //alert(allModaldivs[nr].className);
+            allModaldivs[nr].style.display = "block";
+            allModaldivs[i].style.display = "none";
+            return;
         }
 
 
+
+
     }
-    function nxt(inctxt) {
 
-        var mineDiv = document.getElementById("prjctsaddonhldr");
 
-        var allModaldivs = mineDiv.getElementsByClassName('modal');
-        var incId = "";
-        incId = inctxt;
-        //alert(incId);
+}
+function nxt(inctxt) {
 
-        for (var i = 0; i < allModaldivs.length; i++) {
+    var mineDiv = document.getElementById("prjctsaddonhldr");
 
-            if (allModaldivs[i].id == incId) {
-                var nr = 1;
-                nr += i;
-                if (nr > allModaldivs.length - 1) {
-                    nr = 0;
-                }
-                //alert(allModaldivs[nr].className);
-                allModaldivs[nr].style.display = "block";
-                allModaldivs[i].style.display = "none";
-                return;
+    var allModaldivs = mineDiv.getElementsByClassName('modal');
+    var incId = "";
+    incId = inctxt;
+    //alert(incId);
+
+    for (var i = 0; i < allModaldivs.length; i++) {
+
+        if (allModaldivs[i].id == incId) {
+            var nr = 1;
+            nr += i;
+            if (nr > allModaldivs.length - 1) {
+                nr = 0;
             }
-
-
-
-
+            //alert(allModaldivs[nr].className);
+            allModaldivs[nr].style.display = "block";
+            allModaldivs[i].style.display = "none";
+            return;
         }
 
 
+
+
     }
+
+
+}
