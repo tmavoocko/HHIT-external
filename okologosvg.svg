@@ -59,7 +59,8 @@
             
         }
         60% {
-            
+            stroke-width:1;
+            stroke:#fffccc;
             
         }
         75% {
@@ -71,7 +72,8 @@
             
         }
         100% {
-            
+            stroke-width:3;
+            stroke:black;
             ry: 0.3;
         }
         
