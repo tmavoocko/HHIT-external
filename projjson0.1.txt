@@ -53,7 +53,7 @@
     "Testování správné funkčnosti všech dovedností web miniapi",
     "//Php - Javascript - Css - Html"
   ],
-  "viewwebimg_src": "https://www.optika-oko.cz/wp-content/uploads/2018/04/logo.png",
+  "viewwebimg_src": "https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/okologosvg.svg",
   "viewweba_href": "https://www.optika-oko.cz/pobocky-a-kontakty/pobocka-zbraslav/",
   "onclc": "okovcards",
   "img_src0": "",
