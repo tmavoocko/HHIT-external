@@ -111,7 +111,7 @@
       }
      </style>
   <path id="okobck"
-        fill="none" stroke="#fffccc" stroke-width="1"
+        fill="none" stroke="#fffccc" stroke-width="10"
         d="M 173.00,1.21
            C 187.92,1.02 203.93,4.93 218.00,9.67
              233.14,14.76 250.32,23.97 263.00,33.65
@@ -126,7 +126,7 @@
              22.00,74.87 46.89,42.52 82.00,22.43
              104.75,9.41 121.51,5.12 147.00,1.21
              147.00,1.21 173.00,1.21 173.00,1.21 Z" />
-   <path id="okologopart1"
+    <path id="okologopart1"
         fill="#fffccc" stroke="#fffccc" stroke-width="1"
         d="M 164.00,80.00
            C 164.00,80.00 164.00,144.00 164.00,144.00
@@ -260,6 +260,6 @@
            C 282.01,228.72 285.48,226.77 287.00,222.00
              287.00,222.00 280.00,223.00 280.00,223.00 Z" />
 
-    <ellipse id="okologopart2" fill="#fffccc" stroke="black" stroke-width="1" cx="73.73" cy="152.31" rx="24.3" ry="24.3"  />
+    <ellipse id="okologopart2" fill="#fffccc" stroke="#fffccc" stroke-width="1" cx="73.73" cy="152.31" rx="24.3" ry="24.3"  />
     <ellipse id="okologopart3" fill="black" stroke="black" stroke-width="1" cx="73.73" cy="152.31" rx="8.3"  />                
 </svg>
