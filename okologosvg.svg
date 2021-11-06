@@ -8,7 +8,11 @@
       
      >
      <style>
-      #okologo {/*background-color: #a8b741*/;padding: 2px;}
+      #okologo {
+        /*background-color: #a8b741*/;
+        padding: 2px;
+        border:3px solid black;
+      }
       
       #okologo #okologopart3{
         
