@@ -12,6 +12,7 @@
         /*background-color: #a8b741*/;
         padding: 2px;
         border:3px solid black;
+        border-radius:180px
       }
       
       #okologo #okologopart3{
