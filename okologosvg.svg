@@ -13,6 +13,7 @@
         padding: 2px;
         border:3px solid black;
         border-radius:180px
+        filter: drop-shadow(10 px 10 px 4 px black);
       }
       
       #okologo #okologopart3{
