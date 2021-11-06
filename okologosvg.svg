@@ -88,12 +88,12 @@
             
         }
         25% {
-            
+            stroke:black;
+            fill: black;
             
         }
         50% {
-            stroke:black;
-            fill: black;
+            
         }
         60% {
             
