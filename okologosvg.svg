@@ -92,8 +92,8 @@
             
         }
         50% {
-            transform:none;
-            
+            stroke:black;
+            fill: black;
         }
         60% {
             
