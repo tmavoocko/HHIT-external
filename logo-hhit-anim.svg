@@ -1,4 +1,4 @@
-﻿<svg class="logo " xmlns="http://www.w3.org/2000/svg"
+﻿<svg id="hhitlogo" class="logo " xmlns="http://www.w3.org/2000/svg"
                 width="4.01335in" height="3.23917in"
                 viewbox="0 0 1493 1205">
                 <style type="text/css">
@@ -49,8 +49,7 @@
                     }
                     .logo{
                         background-color:black;
-                        width:100%;
-                        height: auto;
+                        
                     }
                     .logo:hover .Ltr0-hidden{
                         display: block;
