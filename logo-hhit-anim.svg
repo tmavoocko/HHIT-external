@@ -49,7 +49,7 @@
                     }
                     .logo{
                         background-color:black;
-                        width:100%;
+                        width:100px;
                         height: auto;
                     }
                     .logo:hover .Ltr0-hidden{
