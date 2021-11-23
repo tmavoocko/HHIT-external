@@ -32,7 +32,7 @@
         
         
         transition: ry 0.2s;
-        animation: eyecenter 6.5s ease-in-out 6;
+        animation: eyecenter 6.5s ease-in-out 56;
       }
       #okologo:hover #okologopart3{
         rx: 12.3;
