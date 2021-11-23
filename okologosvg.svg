@@ -26,13 +26,13 @@
         
         
         transition: ry 0.2s;
-        animation: blink 6.5s ease-in-out 6;
+        animation: blink 6.5s ease-in-out 66;
       }
       #okologo #okologopart3{
         
         
         transition: ry 0.2s;
-        animation: eyecenter 6.5s ease-in-out 56;
+        animation: eyecenter 6.5s ease-in-out 66;
       }
       #okologo:hover #okologopart3{
         rx: 12.3;
