@@ -12,7 +12,6 @@
   "mdltxt3": "Pro firmu Oko to znamenalo dvou stránkový projekt, objednávkovou ale i děkovací web stránku. Do budoucna plánujeme rozšířit o možnost zakliknout si a obdržet potvrzovací email.",
   "mdltxt4": "Veřejně v provozu od : 26.10.2021 19:48 ",
   "worksdone": [
-
     "Analýza konkrétních potřeb zadavatele",
     "Grafika: návrh a realizace qr kódů",
     "Webdesign: návrh a realizace webových stránek",
@@ -32,7 +31,7 @@
 }SplTr
 {
   "prewnext": "okovcards",
-  "https://i.ibb.co/BGWrfLv/oko-Phablet-Vcard.png",
+  "img_logo0": "https://scontent.fprg1-1.fna.fbcdn.net/v/t1.6435-9/s480x480/238987849_361910168863174_7884269926665973755_n.png?_nc_cat=103&ccb=1-5&_nc_sid=8024bb&_nc_ohc=97pqYs5N4EUAX-Os5uH&_nc_ht=scontent.fprg1-1.fna&oh=b800c09a3a36462c43c16e1801f0a313&oe=619F256F",
   "clmncount": 3,
   "mdlimg_src0": "https://www.optika-oko.cz/wp-content/uploads/2021/08/transparent-https-www.optika-oko.cz-vcards-Ladvi--300x300.png",
   "mdlimg_src1": "https://www.optika-oko.cz/wp-content/uploads/2021/08/trnsparent-https-www.optika-oko.cz-vcards-Skalka--300x300.png",
@@ -44,7 +43,6 @@
   "mdltxt3": "Pro firmu Oko to znamenalo čtyř stránkový projekt, každá virtuální vizitka má nejen svou web stránku ale také soubor ke stažení do telefonu",
   "mdltxt4": "Veřejně v provozu od : 10.08.2021 20:36 ",
   "worksdone": [
-
     "Analýza konkrétních potřeb zadavatele",
     "Grafika: návrh a realizace qr kódů",
     "Webdesign: návrh a realizace webových stránek",
@@ -112,7 +110,6 @@ do budoucna na spolupráci ohledně všech budoucích programátorských, text, 
 "img_src2":"https://i.ibb.co/xDrFrF0/rychlstafl02-v-0-1.png",
 "ttl":"Rychlé štafle"
 }SplTr
-
 {
 "prewnext":"zlofireshow",
 "img_logo0":"https://i.ibb.co/Cs4MXt3/websdone-ZLO.jpg",
@@ -169,7 +166,6 @@ Analýza klíčových slov",
 "img_src2":"https://i.ibb.co/PmZnSbc/zlo02-v-0-2.png",
 "ttl":"Zlofireshow"
 }SplTr
-
 {
 "prewnext":"malmas",
 "img_logo0":"https://i.ibb.co/6WnG65t/websdone-Malmas.jpg",
@@ -212,7 +208,6 @@ Analýza klíčových slov",
 "img_src2":"https://i.ibb.co/2g2mSb8/malmas02-v-0-1.png",
 "ttl":"Malmasáže"
 }SplTr
-
 {
 "prewnext":"kloboucnik",
 "img_logo0":"https://i.ibb.co/WFMWqXS/kloboucnik-700x400.jpg",
@@ -252,7 +247,6 @@ Analýza klíčových slov",
 "img_src2":"https://i.ibb.co/P4kSppX/kloboucnik02-v-0-1.png",
 "ttl":"Kloboučník"
 }SplTr
-
 {
 "prewnext":"dayman",
 "img_logo0":"https://i.ibb.co/PZZcfX0/web-Api-Dayman-project-IMG-700x400.png",
@@ -292,7 +286,6 @@ Analýza konkrétních potřeb zadavatele",
 "img_src1":"https://i.ibb.co/PZZcfX0/web-Api-Dayman-project-IMG-700x400.png",
 "img_src2":"","ttl":"Dayman"
 }SplTr
-
 {
 "prewnext":"dantik",
 "img_logo0":"https://i.ibb.co/RjvT3FH/web-Api-Dantik-project-IMG-700x400.png",
@@ -341,7 +334,6 @@ Analýza konkrétních potřeb zadavatele",
 "viewweba_href":"","onclc":"dantik","img_src0":"","img_src1":"https://i.ibb.co/RjvT3FH/web-Api-Dantik-project-IMG-700x400.png",
 "img_src2":"","ttl":"Dantik"
 }SplTr
-
 {
 "prewnext":"taskmanag",
 "img_logo0":"https://i.ibb.co/gz0Ddxx/Task-Manag-project-IMG-700x400.png",
@@ -400,7 +392,6 @@ Analýza konkrétních potřeb zadavatele",
 "img_src2":"",
 "ttl":"Task manager"
 }SplTr
-
 {
 "prewnext":"",
 "img_logo0":"",
