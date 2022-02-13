@@ -32,7 +32,7 @@
 }SplTr
 {
   "prewnext": "okovcards",
-  "img_logo0": "https://scontent.fprg1-1.fna.fbcdn.net/v/t1.6435-9/s480x480/238987849_361910168863174_7884269926665973755_n.png?_nc_cat=103&ccb=1-5&_nc_sid=8024bb&_nc_ohc=97pqYs5N4EUAX-Os5uH&_nc_ht=scontent.fprg1-1.fna&oh=b800c09a3a36462c43c16e1801f0a313&oe=619F256F",
+  "https://i.ibb.co/BGWrfLv/oko-Phablet-Vcard.png",
   "clmncount": 3,
   "mdlimg_src0": "https://www.optika-oko.cz/wp-content/uploads/2021/08/transparent-https-www.optika-oko.cz-vcards-Ladvi--300x300.png",
   "mdlimg_src1": "https://www.optika-oko.cz/wp-content/uploads/2021/08/trnsparent-https-www.optika-oko.cz-vcards-Skalka--300x300.png",
