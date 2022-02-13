@@ -55,7 +55,7 @@
   "viewweba_href": "https://www.optika-oko.cz/pobocky-a-kontakty/pobocka-zbraslav/",
   "onclc": "okovcards",
   "img_src0": "",
-  "img_src1": "https://i.ibb.co/BGWrfLv/oko-Phablet-Vcard.png",
+  "img_src1": "https://i.ibb.co/pwWcRtF/websdone-vcards-oko.png",
   "img_src2": "",
   "ttl": "Oko vcards"
 }SplTr
