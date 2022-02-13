@@ -1,4 +1,67 @@
 {
+  "prewnext": "okolnsorder",
+  "img_logo0": "http://www.optika-oko.cz/wp-content/uploads/2018/04/bg-header.jpg",
+  "clmncount": 3,
+  "mdlimg_src0": "https://i.ibb.co/DDcVDWy/oko-Pc-Monitor.png",
+  "mdlimg_src1": "https://i.ibb.co/tPRFn6L/oko-Phablet.png",
+  "mdlimg_src2": "https://i.ibb.co/CsQzrn1/oko-Tablet-Monitor.png",
+  "mdlimg_src3": "https://i.ibb.co/n8bj17G/okoPhone.png",
+  "mdltxt0": "2021 ONLINE Objednávkový formuář kontaktních čoček pro Optika OKO",
+  "mdltxt1": "Objednávkový formuář umožnuje návštěvníkům webu firmy Oko optika objednávku vytvořít z mobilního telefonu, tabletu i ze stolního počítače či notebooku jednoduše a kdykoli.",
+  "mdltxt2": "Cílem projektu bylo od základu vyrobit kompletně na míru specifický objednávkový formulář, který by co nejvíce zjednodušil a zpřístupnil možnost objednat kontsktní čočky ONLINE pro všechny stavající ale i nové klienty Oka",
+  "mdltxt3": "Pro firmu Oko to znamenalo dvou stránkový projekt, objednávkovou ale i děkovací web stránku. Do budoucna plánujeme rozšířit o možnost zakliknout si a obdržet potvrzovací email.",
+  "mdltxt4": "Veřejně v provozu od : 26.10.2021 19:48 ",
+  "worksdone": [
+
+    "Analýza konkrétních potřeb zadavatele",
+    "Grafika: návrh a realizace qr kódů",
+    "Webdesign: návrh a realizace webových stránek",
+    "Navržení a zpracování celé programové architektury budoucí web api",
+    "Navržení architektury zpracování produktů a jejich interakce v budoucí web api",
+    "Vývoj software, testování",
+    "Testování správné funkčnosti všech dovedností web iapi",
+    "//Php - Javascript - Css - Html"
+  ],
+  "viewwebimg_src": "https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/okologosvg.svg",
+  "viewweba_href": "https://www.optika-oko.cz",
+  "onclc": "okolnsorder",
+  "img_src0": "https://i.ibb.co/3NwHTzw/okolns-first00-v-0-1.png",
+  "img_src1": "https://i.ibb.co/crpmChY/okolns-middle01-v-0-1.png",
+  "img_src2": "https://i.ibb.co/RBbVFd0/okolns-last02-v-0-1.png",
+  "ttl": "Oko objednávky čoček"
+}SplTr
+{
+  "prewnext": "okovcards",
+  "https://i.ibb.co/BGWrfLv/oko-Phablet-Vcard.png",
+  "clmncount": 3,
+  "mdlimg_src0": "https://www.optika-oko.cz/wp-content/uploads/2021/08/transparent-https-www.optika-oko.cz-vcards-Ladvi--300x300.png",
+  "mdlimg_src1": "https://www.optika-oko.cz/wp-content/uploads/2021/08/trnsparent-https-www.optika-oko.cz-vcards-Skalka--300x300.png",
+  "mdlimg_src2": "https://www.optika-oko.cz/wp-content/uploads/2021/08/transparent-https-www.optika-oko.cz-vcards-Sporilov-1-4-300x300.png",
+  "mdlimg_src3": "https://www.optika-oko.cz/wp-content/uploads/2021/08/transparent-https-www.optika-oko.cz-vcards-Zbraslav-1-1-300x300.png",
+  "mdltxt0": "2021 Virtualizace kontaktů Optika OKO",
+  "mdltxt1": "Oko qr vizitka usnadňuje návštěvníkům jejich webu využití přímo ve svém mobilním telefonu.",
+  "mdltxt2": "Cílem projektu bylo virtualizovat kontaktní informace všech poboček a zrychlit cestu dat až ke klientovi optiky přímo na smart phone.",
+  "mdltxt3": "Pro firmu Oko to znamenalo čtyř stránkový projekt, každá virtuální vizitka má nejen svou web stránku ale také soubor ke stažení do telefonu",
+  "mdltxt4": "Veřejně v provozu od : 10.08.2021 20:36 ",
+  "worksdone": [
+
+    "Analýza konkrétních potřeb zadavatele",
+    "Grafika: návrh a realizace qr kódů",
+    "Webdesign: návrh a realizace webových stránek",
+    "Navržení a zpracování celé programové architektury budoucí web miniapi",
+    "Vývoj software, testování",
+    "Testování správné funkčnosti všech dovedností web miniapi",
+    "//Php - Javascript - Css - Html"
+  ],
+  "viewwebimg_src": "https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/okologosvg.svg",
+  "viewweba_href": "https://www.optika-oko.cz/pobocky-a-kontakty/pobocka-zbraslav/",
+  "onclc": "okovcards",
+  "img_src0": "",
+  "img_src1": "https://scontent.fprg1-1.fna.fbcdn.net/v/t1.6435-9/s480x480/238987849_361910168863174_7884269926665973755_n.png?_nc_cat=103&ccb=1-5&_nc_sid=8024bb&_nc_ohc=97pqYs5N4EUAX-Os5uH&_nc_ht=scontent.fprg1-1.fna&oh=b800c09a3a36462c43c16e1801f0a313&oe=619F256F",
+  "img_src2": "",
+  "ttl": "Oko vcards"
+}SplTr
+{
 "prewnext":"rychlstafle",
 "img_logo0":"https://i.ibb.co/4tSHwDF/rychl-Staf.jpg",
 "clmncount":3,
@@ -48,7 +111,7 @@ do budoucna na spolupráci ohledně všech budoucích programátorských, text, 
 "img_src1":"https://i.ibb.co/VwD5c2D/rychlstafl01-v-0-1.png",
 "img_src2":"https://i.ibb.co/xDrFrF0/rychlstafl02-v-0-1.png",
 "ttl":"Rychlé štafle"
-}
+}SplTr
 
 {
 "prewnext":"zlofireshow",
@@ -105,7 +168,7 @@ Analýza klíčových slov",
 "img_src1":"https://i.ibb.co/64YBSQS/zlo01-v-0-2.png",
 "img_src2":"https://i.ibb.co/PmZnSbc/zlo02-v-0-2.png",
 "ttl":"Zlofireshow"
-}
+}SplTr
 
 {
 "prewnext":"malmas",
@@ -148,7 +211,7 @@ Analýza klíčových slov",
 "img_src1":"https://i.ibb.co/T0bsmzP/malmas01-v-0-1.png",
 "img_src2":"https://i.ibb.co/2g2mSb8/malmas02-v-0-1.png",
 "ttl":"Malmasáže"
-}
+}SplTr
 
 {
 "prewnext":"kloboucnik",
@@ -188,7 +251,7 @@ Analýza klíčových slov",
 "img_src1":"https://i.ibb.co/mNkgn1j/kloboucnik01-v-0-1.png",
 "img_src2":"https://i.ibb.co/P4kSppX/kloboucnik02-v-0-1.png",
 "ttl":"Kloboučník"
-}
+}SplTr
 
 {
 "prewnext":"dayman",
@@ -228,7 +291,7 @@ Analýza konkrétních potřeb zadavatele",
 "img_src0":"",
 "img_src1":"https://i.ibb.co/PZZcfX0/web-Api-Dayman-project-IMG-700x400.png",
 "img_src2":"","ttl":"Dayman"
-}
+}SplTr
 
 {
 "prewnext":"dantik",
@@ -277,7 +340,7 @@ Analýza konkrétních potřeb zadavatele",
 "viewwebimg_src":"https://i.ibb.co/QkXgNZQ/websdone-Icon-Project-Dantik-SRO.png",
 "viewweba_href":"","onclc":"dantik","img_src0":"","img_src1":"https://i.ibb.co/RjvT3FH/web-Api-Dantik-project-IMG-700x400.png",
 "img_src2":"","ttl":"Dantik"
-}
+}SplTr
 
 {
 "prewnext":"taskmanag",
@@ -336,7 +399,7 @@ Analýza konkrétních potřeb zadavatele",
 "img_src1":"https://i.ibb.co/gz0Ddxx/Task-Manag-project-IMG-700x400.png",
 "img_src2":"",
 "ttl":"Task manager"
-}
+}SplTr
 
 {
 "prewnext":"",
