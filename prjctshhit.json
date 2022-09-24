@@ -1,0 +1,35 @@
+{
+  "projects": [
+    {
+      "prewnext": "okolnsorder",
+      "img_logo0": "http://www.optika-oko.cz/wp-content/uploads/2018/04/bg-header.jpg",
+      "clmncount": 3,
+      "mdlimg_src0": "https://i.ibb.co/DDcVDWy/oko-Pc-Monitor.png",
+      "mdlimg_src1": "https://i.ibb.co/tPRFn6L/oko-Phablet.png",
+      "mdlimg_src2": "https://i.ibb.co/CsQzrn1/oko-Tablet-Monitor.png",
+      "mdlimg_src3": "https://i.ibb.co/n8bj17G/okoPhone.png",
+      "mdltxt0": "2021 ONLINE Objednávkový formuář kontaktních čoček pro Optika OKO",
+      "mdltxt1": "Objednávkový formuář umožnuje návštěvníkům webu firmy Oko optika objednávku vytvořít z mobilního telefonu, tabletu i ze stolního počítače či notebooku jednoduše a kdykoli.",
+      "mdltxt2": "Cílem projektu bylo od základu vyrobit kompletně na míru specifický objednávkový formulář, který by co nejvíce zjednodušil a zpřístupnil možnost objednat kontsktní čočky ONLINE pro všechny stavající ale i nové klienty Oka",
+      "mdltxt3": "Pro firmu Oko to znamenalo dvou stránkový projekt, objednávkovou ale i děkovací web stránku. Do budoucna plánujeme rozšířit o možnost zakliknout si a obdržet potvrzovací email.",
+      "mdltxt4": "Veřejně v provozu od : 26.10.2021 19:48 ",
+      "worksdone": [
+        "Analýza konkrétních potřeb zadavatele",
+        "Grafika: návrh a realizace qr kódů",
+        "Webdesign: návrh a realizace webových stránek",
+        "Navržení a zpracování celé programové architektury budoucí web api",
+        "Navržení architektury zpracování produktů a jejich interakce v budoucí web api",
+        "Vývoj software, testování",
+        "Testování správné funkčnosti všech dovedností web iapi",
+        "//Php - Javascript - Css - Html"
+      ],
+      "viewwebimg_src": "https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/okologosvg.svg",
+      "viewweba_href": "https://www.optika-oko.cz",
+      "onclc": "okolnsorder",
+      "img_src0": "https://i.ibb.co/3NwHTzw/okolns-first00-v-0-1.png",
+      "img_src1": "https://i.ibb.co/crpmChY/okolns-middle01-v-0-1.png",
+      "img_src2": "https://i.ibb.co/RBbVFd0/okolns-last02-v-0-1.png",
+      "ttl": "Oko objednávky čoček"
+    }
+  ]
+}
