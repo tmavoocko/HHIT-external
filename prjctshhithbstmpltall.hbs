@@ -1,3 +1,68 @@
+
+<script id="project_modal" type="text/x-handlebars-template">
+    <div class="modal" id="{{prewnext}}">
+        <div class="mdltitle" id="mdltitle_{{ttl}}">
+            <img class="projicn" id="" src="{{img_logo0}}">
+            <h2 class="projname" id="">{{ttl}}</h2>
+            <span class="close" id="" onclick="document.getElementById('{{prewnext}}').style.display='none'; document.getElementsByClassName('l - h')[0].style.display='block'">x</span>
+            <hr class="" id="">
+            <div class="prevNext">
+                <label class="prev" id="prev-{{ttl}}" onclick="prview('{{prewnext}}');"><span class="" id=""></span></label>
+                <label class="next" id="next-{{ttl}}" onclick="nxt('{{prewnext}}');"><span class="" id=""></span></label>
+            </div>
+        </div>
+        <div class="row scrlme">
+
+            <div class="col-sm collft" id="modal-content_{{ttl}}-0">
+                <div class="hrzntl-Centered" id="modal-content0-_inside0">
+                    <div class="mdlclmn0" id="{{ttl}}0">
+                        <img class="mdlimglft" id="mdlimglft0" src="{{mdlimg_src0}}">
+                        <img class="mdlimglft" id="mdlimglft1" src="{{mdlimg_src1}}">
+                        <img class="mdlimglft" id="mdlimglft2" src="{{mdlimg_src3}}">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm colcntr" id="modal-content_{{ttl}}-1">
+                <div class="hrzntl-Centered" id="modal-content0-_inside1">
+                    <div class="mdlclmn1" id="{{ttl}}1">
+                        <h6 class="projdescr" id="txt0">{{mdltxt0}}</h6>
+                        <p class="projdescr" id="txt1">{{mdltxt1}}</p>
+                        <p class="projdescr" id="txt2">{{mdltxt2}}</p>
+                        <p class="projdescr" id="txt3">{{mdltxt3}}</p>
+                        <p class="projdescr" id="txt4">{{mdltxt4}}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm colrght" id="modal-content_{{ttl}}-2">
+                <div class="hrzntl-Centered" id="modal-content_{{ttl}}-_inside2">
+                    <div class="mdlclmn2" id="{{ttl}}2">
+                        <p class="" id="">Provedené práce</p>
+                        <div class="worksdone" id="{{ttl}}-worksdone">
+                            {{#each worksdone}} <span class="worktype" id=""><i class="fa fa-fw fa-check-circle-o"></i>{{ this }}</span> {{/each}}
+                        </div>
+                        <hr class="" id="" style="background-color: rgb(255, 252, 204);">
+                        <p class="" id="">Navštívit web</p>
+                        <a class="viewweba" id="{{ttl}}-viewweba" href="{{viewweba_href}}" target="blank">
+                            <img class="viewwebimg" id="{{ttl}}-viewwebimg" src="{{viewwebimg_src}}">
+                        </a>
+                        <hr class="" id="" style="background-color: rgb(255, 252, 204);">
+                        <div class="mdldivrght composition" id="mdldivrght-{{ttl}}">
+                            <img class="imgcomposition" id="imgcompos0" src="{{mdlimg_src0}}">
+                            <img class="imgcomposition" id="imgcompos1" src="{{mdlimg_src1}}">
+                            <img class="imgcomposition" id="imgcompos2" src="{{mdlimg_src2}}">
+                            <img class="imgcomposition" id="imgcompos3" src="{{mdlimg_src3}}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</script>
+
+
 <script id="project_miniform" type="text/x-handlebars-template">
     <div>
         Project name:<h5>{{ttl}}</h5>. Works done:<h5>{{worksdone}}</h5>.
@@ -8,5 +73,5 @@
 
 
     </div>
-        
+
 </script>
