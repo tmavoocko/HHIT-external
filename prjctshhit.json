@@ -1,6 +1,28 @@
 {
   "projects": [
     {
+      "prewnext": "daymanweb",
+      "img_logo0": "https://i.ibb.co/0QJqXgT/dayman1000-600-prntscr-png.png",
+      "clmncount": "3",
+      "mdlimg_src0": "https://i.ibb.co/C9zGggw/dayman-Monitor.png",
+      "mdlimg_src1": "https://i.ibb.co/ynxH0j0/dayman-Phablet-cs.png",
+      "mdlimg_src2": "https://i.ibb.co/dBhmFWZ/addtask.png",
+      "mdlimg_src3": "https://i.ibb.co/xD6KWYC/addtask.png",
+      "mdltxt0": "2022 ONLINE Dayman správce projektů",
+      "mdltxt1": "Dayman je otevřená, propojená struktura pro týmovou spolupráci při vývoji projektů",
+      "mdltxt2": "Umožnuje návštěvníkům nový projekt vytvořit i ovládat z mobilního telefonu, tabletu i ze stolního počítače či notebooku jednoduše a kdykoli.",
+      "mdltxt3": "Cílem projektu bylo od základu vyrobit kompletně na míru specifický správce projektů, který by co nejvíce zjednodušil a zpřístupnil možnost komunikovat o projektu ONLINE pro všechny stavající ale i nové klienty HHIT.",
+      "mdltxt4": "ASP jednostránková aplikace běžící s podporou SQL databáze. Testovně v provozu od : 12.03.2022 13:55",
+      "worksdone": [ "Analýza konkrétních potřeb zadavatele", "Webdesign: návrh a realizace webových stránek", "Navržení a zpracování celé programové architektury budoucí web api", "Vývoj software", "Testování správné funkčnosti všech dovedností web api", "//Php - Javascript - Css - Html-Sql" ],
+      "viewwebimg_src": "https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/logo-hhit-anim.svg",
+      "viewweba_href": "http://hhit.wz.cz/dayman/",
+      "onclc": "daymanweb",
+      "img_src0": "",
+      "img_src1": "https://i.ibb.co/ZGVPB2Y/dayman-imgprojsm1.png",
+      "img_src2": "",
+      "ttl": "Online Dayman"
+    },
+    {
       "prewnext": "okolnsorder",
       "img_logo0": "http://www.optika-oko.cz/wp-content/uploads/2018/04/bg-header.jpg",
       "clmncount": 3,
@@ -31,7 +53,7 @@
       "img_src2": "https://i.ibb.co/RBbVFd0/okolns-last02-v-0-1.png",
       "ttl": "Oko objednávky čoček"
     },
-    
+
     {
       "prewnext": "okovcards",
       "img_logo0": "http://www.optika-oko.cz/wp-content/uploads/2018/04/bg-header.jpg",
@@ -61,9 +83,7 @@
       "img_src1": "https://i.ibb.co/pwWcRtF/websdone-vcards-oko.png",
       "img_src2": "https://i.ibb.co/BGWrfLv/oko-Phablet-Vcard.png",
       "ttl": "Oko vcards"
-    }
-    
-    ,
+    },
     {
       "prewnext": "rychlstafle",
       "img_logo0": "https://i.ibb.co/4tSHwDF/rychl-Staf.jpg",
@@ -95,9 +115,7 @@
       "img_src1": "https://i.ibb.co/VwD5c2D/rychlstafl01-v-0-1.png",
       "img_src2": "https://i.ibb.co/xDrFrF0/rychlstafl02-v-0-1.png",
       "ttl": "Rychlé štafle"
-    }
-    
-    ,
+    },
     {
       "prewnext": "zlofireshow",
       "img_logo0": "https://i.ibb.co/Cs4MXt3/websdone-ZLO.jpg",
@@ -111,7 +129,7 @@
       "mdltxt2": " Mě osobně \"vysloužilou fakír -ku ohně\" zaujal tento projekt ještě dříve než samotnou skupinu ZLO. Bylo mi jasné že pro sebe potřebují web. Tak započala cca čtvrt roku dlouhá debata s uměleckou vedoucí této skupiny. Jelikož měli web přislíben \"zdarma od kamaráda\" ale po čtvrt roce čekání neměli pořád jakékoliv výsledky, bylo nutné se rozhodnout pro změnu a zároveň napřed stávající ujednání rozvázat. Po dvou měsících práce máme vše v plném funkčním a otestovaném stavu. ",
       "mdltxt3": " Vše jsme pojali zodpovědně. Provedli jsme analýzu potřeb webu. Díky speciální potřebě: \"mít údržbu za opravdu nízké náklady\" navrhla jsem tento koncept s vlastní doménou, ale pouze s bezplatnými web hosting službami, moje další skripty se starají o dvojjazyčné zobrazení, instalaci nepodporovaných písem a mnoho dalších detailů designu na všech stránkách tohoto projektu. Zlo fireshow dodali vlastní elegantní logo a kompletní vizuální styl včetně fontu, který je na stránkách použit. I přes veškerou komplexnost se mi povedlo stránky nasadit na redakční systém CMS který umožňuje majiteli webu pohodlně a samostatně editovat stránky. U tohoto projektu byl proveden mini kurz jak používat web hosting - redakční systém CMS, s webovým editorem klienta. ",
       "mdltxt4": " Vzhledem ke spokojenosti s mými službami, jsme se skupinou ZLO fireshow domluvili do budoucna na spolupráci ohledně všech budoucích programátorských či foto - editačních potřeb pro jejich web. 18.3. - 4.5.2020 hlavní projekt. Od 4.5.2020 zahájena >> trvalá programátorská spolupráce. ",
-      "worksdone": [        
+      "worksdone": [
         "Analýza klíčových slov",
         "Grafická realizace webu, návrh vizitek a qr",
         "Optimalizace",
@@ -128,9 +146,7 @@
       "img_src1": "https://i.ibb.co/64YBSQS/zlo01-v-0-2.png",
       "img_src2": "https://i.ibb.co/PmZnSbc/zlo02-v-0-2.png",
       "ttl": "Zlofireshow"
-    }
-    
-    ,
+    },
     {
       "prewnext": "malmas",
       "img_logo0": "https://i.ibb.co/6WnG65t/websdone-Malmas.jpg",
@@ -163,9 +179,7 @@
       "img_src1": "https://i.ibb.co/T0bsmzP/malmas01-v-0-1.png",
       "img_src2": "https://i.ibb.co/2g2mSb8/malmas02-v-0-1.png",
       "ttl": "Malmasáže"
-    }
-    
-    ,
+    },
     {
       "prewnext": "kloboucnik",
       "img_logo0": "https://i.ibb.co/WFMWqXS/kloboucnik-700x400.jpg",
@@ -194,9 +208,7 @@
       "img_src1": "https://i.ibb.co/mNkgn1j/kloboucnik01-v-0-1.png",
       "img_src2": "https://i.ibb.co/P4kSppX/kloboucnik02-v-0-1.png",
       "ttl": "Kloboučník"
-    }
-    
-    ,
+    },
     {
       "prewnext": "dayman",
       "img_logo0": "https://i.ibb.co/PZZcfX0/web-Api-Dayman-project-IMG-700x400.png",
@@ -209,9 +221,9 @@
       "mdltxt1": " Mám ráda kontrolu nad svými osobními daty. Používáním aplikací třetích stran, v dnešní době, vždy poskytujeme souhlas se zpracováním konkrétních osobních dat takové aplikaci svěřené. Ani se zákony pro ochranu těchto osobních dat nevíme na jaké veškeré \"soukromé\" účely třetí strana naše data využívá. Tomu se dá samozřejmě pohodlně zabránit naprogramováním vlastního serveru a web api která na něm poběží. ",
       "mdltxt2": " Cíl web api byl jednoznačný - online osobní kalendář - task manager bez dohledu \"Velkého bratra\" . První fází tohoto projektu byl web, který má osobní data, prezentuje samozřejmě i responzivně a umožňuje jejich online ovládání. Zanalyzovala jsem si trh i přestože google kalendář již existoval, některá data chci mít online, ale čistě pro sebe. S funkcí import a export dat je \"Dayman\" dostupný univerzálně k použití pro kohokoliv. Dayman využívá pro zabezpečení a správu uživatelských údajů databázi postgreSql. ",
       "mdltxt3": "",
-      "mdltxt4": "",      
+      "mdltxt4": "",
       "worksdone": [
-        
+
         "Analýza konkrétních potřeb zadavatele",
         "Grafika - návrh a realizace webu",
         "Navržení a zpracování celé programové architektury budoucí web appi",
@@ -226,9 +238,7 @@
       "img_src1": "https://i.ibb.co/PZZcfX0/web-Api-Dayman-project-IMG-700x400.png",
       "img_src2": "",
       "ttl": "Dayman"
-    }
-    
-    ,
+    },
     {
       "prewnext": "dantik",
       "img_logo0": "https://i.ibb.co/RjvT3FH/web-Api-Dantik-project-IMG-700x400.png",
@@ -258,9 +268,7 @@
       "img_src1": "https://i.ibb.co/RjvT3FH/web-Api-Dantik-project-IMG-700x400.png",
       "img_src2": "",
       "ttl": "Dantik"
-    }
-    
-    ,
+    },
     {
       "prewnext": "taskmanag",
       "img_logo0": "https://i.ibb.co/gz0Ddxx/Task-Manag-project-IMG-700x400.png",
@@ -290,9 +298,7 @@
       "img_src1": "https://i.ibb.co/gz0Ddxx/Task-Manag-project-IMG-700x400.png",
       "img_src2": "",
       "ttl": "Task manager"
-    }
-    
-    ,
+    },
     {
       "prewnext": "",
       "img_logo0": "",
