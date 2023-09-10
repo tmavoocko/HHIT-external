@@ -1,6 +1,34 @@
 {
   "projects": [
     {
+      "prewnext": "zlofireshow",
+      "img_logo0": "https://i.ibb.co/Cs4MXt3/websdone-ZLO.jpg",
+      "clmncount": 3,
+      "mdlimg_src0": "https://i.ibb.co/nB0zs6G/websdone-ZLO-PCMonitor.png",
+      "mdlimg_src1": "https://i.ibb.co/hs02ZcS/zlo-Phablet.png",
+      "mdlimg_src2": "https://i.ibb.co/pRpdn5S/zlo-tablet.png",
+      "mdlimg_src3": "https://i.ibb.co/wpBs1Rx/zloPhone.png",
+      "mdltxt0": "2023 oprava 'backoffice' problémů způsobených vinou pposkotovatele služeb.",
+      "mdltxt1": " Řešení problému bylo dvojité a díky tomu 2x náročnější na vychytání chyb. ",
+      "mdltxt2": " Zodpovědně jsme provedli analýzu nikde nenahlášených chyb u poskytovatele a po vzájemné komunikaci s poskytovatelem nám bylo sděleno že jedna závada je vinnou poskytovatele. Provedli jsme analýzu potřeb webu",
+      "mdltxt3": " Druhá závada je také vina poskytovatele. Najít tuhle nikde nenahlášenou vadu samostatně jako externista bez přístupu ke zdrojovému kodu byl skutečně složitý úkon",
+      "mdltxt4": " Po nalezení důvodů proč druhá závada vůbec vzniká, její odstranění naštěstí bylo jednoduché",
+      "worksdone": [
+        "Analýza problematiky závadovosti",
+        "Mnoho testovacích pokusů",
+        "Oprava všech závad",
+        "Grafické zpracování materiálů: retuše - design",
+        "// Testování, analýza, oprava"
+      ],
+      "viewwebimg_src": "https://i.ibb.co/znjf9FL/websdone-Icon-Project-ZLO.png",
+      "viewweba_href": "http://zlofireshow.cz",
+      "onclc": "zlofireshow",
+      "img_src0": "https://i.ibb.co/0YGjFKn/zlo00-v-0-2.png",
+      "img_src1": "https://i.ibb.co/64YBSQS/zlo01-v-0-2.png",
+      "img_src2": "https://i.ibb.co/PmZnSbc/zlo02-v-0-2.png",
+      "ttl": "Zlofireshow"
+    },
+    {
       "prewnext": "daymanweb",
       "img_logo0": "https://i.ibb.co/0QJqXgT/dayman1000-600-prntscr-png.png",
       "clmncount": "3",
