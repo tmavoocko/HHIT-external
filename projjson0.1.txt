@@ -8,7 +8,7 @@
       "mdlimg_src3": "https://i.ibb.co/wpBs1Rx/zloPhone.png",
       "mdltxt0": "2023 oprava 'backoffice' problémů způsobených vinou pposkotovatele služeb.",
       "mdltxt1": " Řešení problému bylo dvojité a díky tomu 2x náročnější na vychytání chyb. ",
-      "mdltxt2": " Zodpovědně jsme provedli analýzu nikde nenahlášených chyb u poskytovatele a po vzájemné komunikaci s poskytovatelem nám bylo sděleno že jedna závada je vinnou poskytovatele. Provedli jsme analýzu potřeb webu",
+      "mdltxt2": " Zodpovědně jsme provedli analýzu nikde nenahlášených chyb u poskytovatele a po vzájemné komunikaci s poskytovatelem nám bylo sděleno že jedna závada je vinnou poskytovatele.",
       "mdltxt3": " Druhá závada je také vina poskytovatele. Najít tuhle nikde nenahlášenou vadu samostatně jako externista bez přístupu ke zdrojovému kodu byl skutečně složitý úkon",
       "mdltxt4": " Po nalezení důvodů proč druhá závada vůbec vzniká, její odstranění naštěstí bylo jednoduché",
       "worksdone": [
