@@ -1,5 +1,5 @@
 {
-      "prewnext": "oprava",
+      "prewnext": "zlofireshow",
       "img_logo0": "https://i.ibb.co/Cs4MXt3/websdone-ZLO.jpg",
       "clmncount": 3,
       "mdlimg_src0": "https://i.ibb.co/nB0zs6G/websdone-ZLO-PCMonitor.png",
