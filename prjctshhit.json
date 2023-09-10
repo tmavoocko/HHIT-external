@@ -41,7 +41,14 @@
       "mdltxt2": "Umožnuje návštěvníkům nový projekt vytvořit i ovládat z mobilního telefonu, tabletu i ze stolního počítače či notebooku jednoduše a kdykoli.",
       "mdltxt3": "Cílem projektu bylo od základu vyrobit kompletně na míru specifický správce projektů, který by co nejvíce zjednodušil a zpřístupnil možnost komunikovat o projektu ONLINE pro všechny stavající ale i nové klienty HHIT.",
       "mdltxt4": "ASP jednostránková aplikace běžící s podporou SQL databáze. Testovně v provozu od : 12.03.2022 13:55",
-      "worksdone": [ "Analýza konkrétních potřeb zadavatele", "Webdesign: návrh a realizace webových stránek", "Navržení a zpracování celé programové architektury budoucí web api", "Vývoj software", "Testování správné funkčnosti všech dovedností web api", "//Php - Javascript - Css - Html-Sql" ],
+      "worksdone": [
+        "Analýza konkrétních potřeb zadavatele",
+        "Webdesign: návrh a realizace webových stránek",
+        "Navržení a zpracování celé programové architektury budoucí web api",
+        "Vývoj software",
+        "Testování správné funkčnosti všech dovedností web api",
+        "//Php - Javascript - Css - Html-Sql"
+      ],
       "viewwebimg_src": "https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/logo-hhit-anim.svg",
       "viewweba_href": "http://hhit.wz.cz/dayman/",
       "onclc": "daymanweb",
