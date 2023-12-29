@@ -93,7 +93,7 @@
   "mdlimg_src0": "https://i.ibb.co/BGWrfLv/oko-Phablet-Vcard.png",
   "mdlimg_src1": "https://i.ibb.co/pwWcRtF/websdone-vcards-oko.png",
   "mdlimg_src2": "https://i.ibb.co/8mf0szc/oko-Pc-Monitor-Vcard.png",
-  "mdlimg_src3": "https://www.optika-oko.cz/wp-content/uploads/2021/08/transparent-https-www.optika-oko.cz-vcards-Zbraslav-1-1-300x300.png",
+  "mdlimg_src3": "https://i.ibb.co/f2Cv8DQ/oko-Tablet-Monitor-Vcard.png",
   "mdltxt0": "2021 Virtualizace kontaktů Optika OKO",
   "mdltxt1": "Oko qr vizitka usnadňuje návštěvníkům jejich webu využití přímo ve svém mobilním telefonu.",
   "mdltxt2": "Cílem projektu bylo virtualizovat kontaktní informace všech poboček a zrychlit cestu dat až ke klientovi optiky přímo na smart phone.",
