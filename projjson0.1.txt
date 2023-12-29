@@ -111,7 +111,7 @@
   "viewwebimg_src": "https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/okologosvg.svg",
   "viewweba_href": "https://www.optika-oko.cz/pobocky-a-kontakty/pobocka-zbraslav/",
   "onclc": "okovcards",
-  "img_src0": "",
+  "img_src0": "https://i.ibb.co/8mf0szc/oko-Pc-Monitor-Vcard.png",
   "img_src1": "https://i.ibb.co/pwWcRtF/websdone-vcards-oko.png",
   "img_src2": "https://i.ibb.co/BGWrfLv/oko-Phablet-Vcard.png",
   "ttl": "Oko vcards"
