@@ -88,10 +88,10 @@
 }SplTr
 {
   "prewnext": "okovcards",
-  "img_logo0": "http://www.optika-oko.cz/wp-content/uploads/2018/04/bg-header.jpg",
+  "img_logo0": "https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/okologosvg.svg",
   "clmncount": 3,
-  "mdlimg_src0": "https://www.optika-oko.cz/wp-content/uploads/2021/08/transparent-https-www.optika-oko.cz-vcards-Ladvi--300x300.png",
-  "mdlimg_src1": "https://www.optika-oko.cz/wp-content/uploads/2021/08/trnsparent-https-www.optika-oko.cz-vcards-Skalka--300x300.png",
+  "mdlimg_src0": "https://i.ibb.co/BGWrfLv/oko-Phablet-Vcard.png",
+  "mdlimg_src1": "https://i.ibb.co/pwWcRtF/websdone-vcards-oko.png",
   "mdlimg_src2": "https://www.optika-oko.cz/wp-content/uploads/2021/08/transparent-https-www.optika-oko.cz-vcards-Sporilov-1-4-300x300.png",
   "mdlimg_src3": "https://www.optika-oko.cz/wp-content/uploads/2021/08/transparent-https-www.optika-oko.cz-vcards-Zbraslav-1-1-300x300.png",
   "mdltxt0": "2021 Virtualizace kontaktů Optika OKO",
