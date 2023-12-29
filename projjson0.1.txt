@@ -57,7 +57,7 @@
     }SplTr
 {
   "prewnext": "okolnsorder",
-  "img_logo0": "http://www.optika-oko.cz/wp-content/uploads/2018/04/bg-header.jpg",
+  "img_logo0": "https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/okologosvg.svg",
   "clmncount": 3,
   "mdlimg_src0": "https://i.ibb.co/DDcVDWy/oko-Pc-Monitor.png",
   "mdlimg_src1": "https://i.ibb.co/tPRFn6L/oko-Phablet.png",
