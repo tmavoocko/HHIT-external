@@ -5,7 +5,7 @@
   "mdlimg_src0": "https://i.ibb.co/kSxGhBH/oko-Pc-Monitor-Rezervacka.png",
   "mdlimg_src1": "https://i.ibb.co/QXXYQ3B/oko-Phablet-Rezervacka.png",
   "mdlimg_src2": "https://i.ibb.co/SRw7Zm4/oko-Tablet-Monitor-Rezervacka.png",
-  "mdlimg_src3": "https://i.ibb.co/n8bj17G/okoPhone.png",
+  "mdlimg_src3": "https://i.ibb.co/QXXYQ3B/oko-Phablet-Rezervacka.png",
   "mdltxt0": "2024 Převod existujícího rezervačního systému služeb na web Optiky OKO",
   "mdltxt1": "Rezervační formuář umožnuje návštěvníkům webu firmy Oko optika objednávku vytvořit z mobilního telefonu, tabletu i ze stolního počítače či notebooku pohodlně a kdekoli.",
   "mdltxt2": "Cílem projektu bylo provést úspěšný transfér existujícího rezervačního systému služeb (končícího k datu 30.4.2024), který by zachoval možnost vytvářet rezervace ONLINE pro všechny stavající ale i nové klienty Oka",
@@ -25,7 +25,7 @@
   "onclc": "okorezervacka",
   "img_src0": "https://i.ibb.co/QXXYQ3B/oko-Phablet-Rezervacka.png",
   "img_src1": "https://i.ibb.co/kSxGhBH/oko-Pc-Monitor-Rezervacka.png",
-  "img_src2": "https://i.ibb.co/SRw7Zm4/oko-Tablet-Monitor-Rezervacka",
+  "img_src2": "https://i.ibb.co/SRw7Zm4/oko-Tablet-Monitor-Rezervacka.png",
   "ttl": "Oko rezervace ONLINE"
 }SplTr
 {
