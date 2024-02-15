@@ -6,7 +6,7 @@
   "mdlimg_src1": "https://i.ibb.co/QXXYQ3B/oko-Phablet-Rezervacka.png",
   "mdlimg_src2": "https://i.ibb.co/SRw7Zm4/oko-Tablet-Monitor-Rezervacka.png",
   "mdlimg_src3": "https://i.ibb.co/n8bj17G/okoPhone.png",
-  "mdltxt0": "2024 ONLINE Převod existujícího rezervačního systému služeb na web Optiky OKO",
+  "mdltxt0": "2024 Převod existujícího rezervačního systému služeb na web Optiky OKO",
   "mdltxt1": "Rezervační formuář umožnuje návštěvníkům webu firmy Oko optika objednávku vytvořit z mobilního telefonu, tabletu i ze stolního počítače či notebooku pohodlně a kdekoli.",
   "mdltxt2": "Cílem projektu bylo provést úspěšný transfér existujícího rezervačního systému služeb (končícího k datu 30.4.2024), který by zachoval možnost vytvářet rezervace ONLINE pro všechny stavající ale i nové klienty Oka",
   "mdltxt3": "Pro firmu Oko to znamenalo potřebu tvorby nové subdomény včetně vhodného DNS záznamu, instalaci další databáze, ale i propojení se sms gate a tvorbu nového cron job v synchronizaci s prácemi it firmy dodavatele aplikace.",
@@ -23,9 +23,9 @@
   "viewwebimg_src": "https://raw.githubusercontent.com/tmavoocko/HHIT-external/main/okologosvg.svg",
   "viewweba_href": "https://www.optika-oko.cz",
   "onclc": "okorezervacka",
-  "img_src0": "https://i.ibb.co/3NwHTzw/okolns-first00-v-0-1.png",
-  "img_src1": "https://i.ibb.co/crpmChY/okolns-middle01-v-0-1.png",
-  "img_src2": "https://i.ibb.co/RBbVFd0/okolns-last02-v-0-1.png",
+  "img_src0": "https://i.ibb.co/QXXYQ3B/oko-Phablet-Rezervacka.png",
+  "img_src1": "https://i.ibb.co/kSxGhBH/oko-Pc-Monitor-Rezervacka.png",
+  "img_src2": "https://i.ibb.co/SRw7Zm4/oko-Tablet-Monitor-Rezervacka",
   "ttl": "Oko rezervace ONLINE"
 }SplTr
 {
