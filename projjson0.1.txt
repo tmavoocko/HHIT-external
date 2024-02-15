@@ -24,7 +24,7 @@
   "viewweba_href": "https://www.optika-oko.cz",
   "onclc": "okorezervacka",
   "img_src0": "https://i.ibb.co/QXXYQ3B/oko-Phablet-Rezervacka.png",
-  "img_src1": "https://i.ibb.co/kSxGhBH/oko-Pc-Monitor-Rezervacka.png",
+  "img_src1": "https://i.ibb.co/4m4F7Qy/webtransfer-700x400.png",
   "img_src2": "https://i.ibb.co/SRw7Zm4/oko-Tablet-Monitor-Rezervacka.png",
   "ttl": "Oko rezervace ONLINE"
 }SplTr
